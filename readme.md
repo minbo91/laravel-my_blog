@@ -1,27 +1,34 @@
-# Laravel PHP Framework
+laravel-5.1-blog
+Blog system development based on laravel 5.2.*
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Demo
+演示地址：http://www.minhanyu.cn/
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+安装配置
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+1.克隆到你的服务器环境
 
-## Official Documentation
+git clone https://github.com/minbo91/my_blog.git 
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+2.切换到 my_blog 所在目录，使用composer 更新扩展包
 
-## Contributing
+如果没有安装过composer请先安装：
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+http://www.phpcomposer.com/
 
-## Security Vulnerabilities
+cd my_blog/
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+composer install
 
-## License
+3.复制 .env.example 改名为 .env
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+4.修改数据库配置.env,在数据库中创建一个库,把配置信息填写到配置文件中
+
+5.创建数据my_blog并导入数据库
+
+my_blog根目录下的blog.sql 
+	
+	
+	
+
+	
