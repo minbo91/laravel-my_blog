@@ -27,6 +27,12 @@ composer install
 5.创建数据my_blog并导入数据库
 
 my_blog根目录下的blog.sql 
+
+后台登陆地址
+
+http://localhost/my_blog/admin/index
+
+账号 admin 密码 123456 
 	
 	
 	
