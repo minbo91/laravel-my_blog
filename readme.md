@@ -1,4 +1,4 @@
-laravel-5.1-blog
+laravel-5.2-blog
 Blog system development based on laravel 5.2.*
 
 Demo
